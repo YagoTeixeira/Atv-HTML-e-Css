@@ -1,0 +1,88 @@
+*{
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(255, 255, 255, 0.733);
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background: linear-gradient(30deg,#840ab4, #e91eb6);
+    height: 20vh;
+}
+
+h1{
+    color: rgb(245, 245, 245);
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+.container-flex {
+    display: flex;                /* Ativa o Flexbox */
+    justify-content: space-around; /* Distribui as caixas com espaço entre elas */
+    gap: 20px;                    /* Espaçamento entre as caixas (moderno) */
+    padding: 20px;
+    flex-wrap: wrap;              /* Permite pular linha em telas pequenas */
+}
+
+
+.caixa1 {
+    /* Estilização do card */
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 15px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+}
+
+.caixa2 {
+    /* Estilização do card */
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #fffb00;
+  border-radius: 15px;
+  background-color: rgb(229, 255, 0);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+}
+
+.caixa3 {
+    /* Estilização do card */
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #a200ff;
+  border-radius: 15px;
+  background-color: rgb(162, 0, 255);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+}
+
+/* Estilo do Botão */
+.card-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Tamanho da fonte do botão */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+/* Tamanho da fonte do Título */
+.card-title {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Tamanho da fonte do Texto */
+.card-text {
+  font-size: 16px;
+  margin: 0;
+  color: #666;
+  line-height: 1.5; /* Melhora a leitura */
+}

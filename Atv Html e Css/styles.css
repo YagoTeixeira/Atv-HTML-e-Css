@@ -1,0 +1,62 @@
+body{
+    background: linear-gradient(30deg,#dd45c4, #bd08eb);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgba(255, 255, 255, 0.733);
+    padding: 56px;
+}
+
+h1{
+    color: rgb(245, 245, 245);
+    background-color: rgb(5, 73, 175);
+    margin-bottom: 42px;
+    text-align: center;
+}
+
+/* Container do Card */
+.card {
+  /* Habilita o Flexbox */
+  display: flex;                
+  /* Organiza os filhos na vertical */
+  flex-direction: row;
+  align-items: center;    
+  /* Espaçamento entre os elementos (título, texto, botao) */
+  gap: 15px;                    
+  
+  /* Estilização do card */
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  box-sizing: border-box; /* Garante que padding não aumente o tamanho total */
+}
+
+/* Tamanho da fonte do Título */
+.card-title {
+  font-size: 24px;
+  margin: 0;
+  color: #333;
+}
+
+/* Tamanho da fonte do Texto */
+.card-text {
+  font-size: 16px;
+  margin: 0;
+  color: #666;
+  line-height: 1.5; /* Melhora a leitura */
+}
+
+/* Estilo do Botão */
+.card-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px; /* Tamanho da fonte do botão */
+  font-weight: bold;
+  text-align: center;
+  transition: background-color 0.3s;
+}
